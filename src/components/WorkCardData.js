@@ -9,7 +9,7 @@ const ProjectCardData = [
         imgsrc: pro1,
         title: 'My Portfolio',
         text: "Build a portfolio website using React, is a dynamic platform for presenting your work, experience, skills, sharing personal information like contact, address,  email, about and highlighting your accomplishments. It serves as a perpetual showcase for projects and case studies, offering an effective means of self-expression and establishing your professional identity.",
-        view: 'https://my-portfolio-mdarwaz.web.app/',
+        view: 'https://my-portfolio-md-arwaz.web.app/',
         source: 'https://github.com/mdarwaz0786/my-portfolio',
     },
 
