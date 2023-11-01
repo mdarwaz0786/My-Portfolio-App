@@ -2,56 +2,39 @@ import pro1 from '../assets/project1.png';
 import pro2 from '../assets/project2.png';
 import pro3 from '../assets/project3.png';
 import pro4 from '../assets/project4.png';
-import pro5 from '../assets/project5.png';
-import pro6 from '../assets/project6.png';
+
 
 const ProjectCardData = [
     {
         imgsrc: pro1,
-        title: 'Portfolio Website',
-        text: "A portfolio website is a unique way to showcase your work and let others know about yourself. It's like an evergreen platform for your projects, case studies, and information about you. it is one of the best ways to express yourself.",
+        title: 'My Portfolio',
+        text: "Build a portfolio website using React, is a dynamic platform for presenting your work, experience, skills, sharing personal information like contact, address,  email, about and highlighting your accomplishments. It serves as a perpetual showcase for projects and case studies, offering an effective means of self-expression and establishing your professional identity.",
         view: 'https://my-portfolio-mdarwaz.web.app/',
         source: 'https://github.com/mdarwaz0786/my-portfolio',
     },
 
     {
         imgsrc: pro2,
-        title: 'Ecommerce Website',
-        text: "A website that allows people to buy and sell physical goods, services, and digital products over the internet rather than at a brick-and-mortar location. Through an e-commerce website, a business can process orders.",
-        view: 'https://ecommerce-app-mdarwaz.web.app/',
-        source: 'https://github.com/mdarwaz0786/ecommerce-app',
+        title: 'E-Shop',
+        text: "Build an e-commerce website using React, that facilitates online buying and selling of physical goods, services, and digital products, replacing traditional brick-and-mortar transactions. It serves as a digital platform through which businesses efficiently process customer orders, providing a seamless and convenient shopping experience on the internet.",
+        view: 'https://e-shop-mdarwaz.web.app/',
+        source: 'https://github.com/mdarwaz0786/e-shop',
     },
 
     {
         imgsrc: pro3,
-        title: 'Resturant Website',
-        text: "A restaurant is a business that prepares and serves food and drinks to customers. Meals are generally served and eaten on the premises, restaurants also offer take-out and food delivery services.",
-        view: 'https://resturant-app-mdarwaz.web.app/',
-        source: 'https://github.com/mdarwaz0786/resturant-app',
+        title: 'w3school Clone',
+        text: 'Build w3Schools clone using React. is a prominent online education platform known for its free web development tutorials. Its standout feature is the "Try it Yourself" editor, enabling users to practice coding within each tutorial. This interactive approach fosters hands-on learning, making it a favored choice for web development, Mobile development enthusiasts.',
+        view: 'https://w3school-clone-md-arwaz.web.app/',
+        source: 'https://github.com/mdarwaz0786/w3school',
     },
 
     {
         imgsrc: pro4,
         title: 'Weather App',
-        text: "Our Weather Forecast App Development enables the user to add numerous locations to the list to verify the weather data accordingly. The user will be able to view the updated weather data every hour for any given location. ",
-        view: '//weather-app-mdarwaz.web.app/',
+        text: "Build weather app using React Native, is a user-friendly mobile application that provides real-time meteorological information, forecasts, and weather-related data. Users can access accurate weather updates, including temperature, precipitation, and forecasts, making it an essential tool for planning outdoor activities and staying informed about local or global weather conditions",
+        view: 'https://expo.dev/accounts/mdarwaz0786/projects/Weather-App/builds/c8f66f9f-c316-41eb-8582-d0ecfcc920d6',
         source: 'https://github.com/mdarwaz0786/weather-app',
-    },
-
-    {
-        imgsrc: pro5,
-        title: 'Myntra Clone',
-        text: "Myntra is a one stop shop for all your fashion and lifestyle needs. Being India's largest e-commerce store for fashion and lifestyle products, Myntra aims at providing a hassle free and enjoyable shopping experience to shoppers across the country with the widest range of brands and products on its portal.",
-        view: 'https://myntra-clone-mdarwaz.web.app/',
-        source: 'https://github.com/mdarwaz0786/myntra-clone',
-    },
-
-    {
-        imgsrc: pro6,
-        title: 'Developer Landing Page',
-        text: "A landing page is a standalone web page that a person 'lands' on after clicking through from an email, ad, or other digital location. Every content strategy should include the use of landing pages to convert more traffic and increase conversions.",
-        view: 'https://myntra-clone-mdarwaz.web.app/',
-        source: 'https://github.com/mdarwaz0786/landing-page',
     },
 ];
 
