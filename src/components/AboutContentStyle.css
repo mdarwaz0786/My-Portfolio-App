@@ -24,28 +24,16 @@
 }
 
 .right .img-container {
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
     position: relative;
     align-items: center;
     text-align: center;
 }
 
 .right .img {
-    max-width: 90%;
+    max-width: 100%;
     border: 1px solid #333;
-
-}
-
-.right .top {
-    grid-column: 1 / span 8;
-    grid-row: 1;
-    padding-top: 20%;
-    z-index: 6;
 }
 
 .right .bottom {
     grid-column: 4 / -1;
-    grid-row: 1;
-    z-index: 5;
 }

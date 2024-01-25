@@ -39,19 +39,25 @@
 
 .social {
     margin-top: 1rem;
+    display: flex;
+    gap: 2rem;
 }
 
-h4 {
-    font-size: 1.2rem;
-    padding-bottom: 0.7rem;
+.socialLink:hover {
+    border-bottom: 1px solid white;
+}
+
+
+.phone p {
+    padding-bottom: 1rem;
 }
 
 p {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 @media only screen and (max-width:768px) {
-    .footer-container{
+    .footer-container {
         grid-template-columns: 1fr;
     }
 }

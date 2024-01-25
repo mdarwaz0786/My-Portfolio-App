@@ -7,7 +7,7 @@
 
 .hero-img::before {
     content: '';
-    background: url(https://images.unsplash.com/photo-1587620962725-abab7fe55159?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEwfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60);
+    background: url(https://cdn.pixabay.com/photo/2021/08/04/13/06/software-developer-6521720_640.jpg);
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;

@@ -12,7 +12,7 @@ const Form = () => {
             <input type='text' placeholder='enter your subject'></input>
             <label>Message</label>
             <textarea rows='6' placeholder='type your message here'></textarea>
-            <button className='btn'>Submit</button>
+            <button className='btn' onClick={(event) => { event.preventDefault(); alert("Submitted successfully") }}>Submit</button>
         </form>
     </div>
 };

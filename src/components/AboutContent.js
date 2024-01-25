@@ -1,23 +1,20 @@
 import './AboutContentStyle.css';
 import React from 'react';
 import { Link } from 'react-router-dom';
-import React1 from '../assets/react1.jpg';
-import React2 from '../assets/react2.webp';
+import mernImage from '../assets/mernImage.png';
+
 
 const AboutContent = () => {
     return <div className='about'>
         <div className='left'>
             <h1>Who Am I ?</h1>
-            <p>I am a React Front-End Developer. I build responsive secure websites for my clients.</p>
+            <p>I am a Full Stack Developer. I build responsive, user-friendly, and secure websites for my clients.</p>
             <Link to='/contact' className='btn'>CONTACT</Link>
         </div>
         <div className='right'>
             <div className='img-container'>
-                <div className='img-stack top'>
-                    <img className='img' src={React1} alt='ReactImage1' />
-                </div>
                 <div className='img-stack bottom'>
-                    <img className='img' src={React2} alt='ReactImage2' />
+                    <img className='img' src={mernImage} alt='mernImage' />
                 </div>
             </div>
         </div>

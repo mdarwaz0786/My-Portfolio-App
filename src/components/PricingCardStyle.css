@@ -2,7 +2,8 @@
     width: 100%;
     padding: 1rem;
     padding-bottom: 5rem;
-    background: #000;
+    margin-top: 2rem;
+    background: #222121;
 }
 
 .card-container {
@@ -48,14 +49,14 @@
 
 .card .btn {
     display: block;
-    width:80%;
-    margin:2rem auto;
+    width: 80%;
+    margin: 2rem auto;
 }
 
-@media only screen and (max-width:768px){
+@media only screen and (max-width:768px) {
     .card-container {
-       max-width: 90%;
-       margin: auto;
-       grid-template-columns: 1fr;
-   }
+        max-width: 90%;
+        margin: auto;
+        grid-template-columns: 1fr;
+    }
 }

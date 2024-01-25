@@ -12,7 +12,6 @@ class HeroImg2 extends Component {
             </div>
         );
     };
-
 };
 
 export default HeroImg2;
